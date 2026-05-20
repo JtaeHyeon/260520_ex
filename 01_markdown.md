@@ -56,3 +56,23 @@
 안녕<br>
 <!-- 혹은 엔터 두번 -->
 안녕
+
+
+<!-- 문자 꾸미기 -->
+별표(*)나 언더바(_)로 감싸면 작동(스페이스 있으면 안됨)
+- `*italic*` => *italic*   
+- `_italic_` => _italic_
+- `**bold**` => **bold**
+- `__bold__` => __bold__
+- `***bold and italic***` => ***bold and italic***
+- `___bold and italic___` => ___bold and italic___
+- `~~strikethrough~~` => ~~strikethrough~~
+- `<mark>highlight</mark>` => <mark>highlight</mark>
+
+<!-- 하이퍼링크와 이미지 -->
+<!-- [표시할 텍스트] (연결할 링크) -->
+[네이버](https://www.naver.com)
+<!-- ![대체 텍스트] (연결할 링크) -->
+![랜덤 이미지](https://picsum.photos/400/200)
+<!-- [![...]](연결할 링크) -->
+[![랜덤 이미지](https://picsum.photos/200)](https://www.naver.com)
